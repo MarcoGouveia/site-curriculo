@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+   font-family: 'Times New Roman', Times, serif;
+}
+.menu-principal{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    font-size: 1.2rem;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+}
+.col-100{
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+    
+}
+.logo{
+    float: left;
+    color: white;
+    width: 50%;
+    padding: 15px;
+    margin-top: 5px;
+    
+}
+.nav-bar{
+    width: 45%;
+    float: right;
+    margin-top: 0px;
+}
+.nav-bar ul li {
+    margin-left: 15px;
+    display: inline-block;
+    
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+}
+
+.nav-bar ul li a:hover{
+    background-color: green;
+}
+
+#h1-sobre{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+    border-bottom: 4px solid rgb(43, 41, 41);
+}
+
+.dados {
+    width: 100%;
+    height: 360px;
+    background-color: white;
+}
+
+.dados .imagem{
+    height: 88%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    
+}
+.dados .imagem .img {
+  
+    margin-top: 80px;
+
+}
+
+.dados .title_info{
+    color: black;
+    float: left;
+    width: 784px;
+}
+
+.dados .title_info h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.dados .title_info p{
+    margin-top: 0px;
+    font-size: 35px;
+    color: black;
+}
+
+.dados .info p{
+    margin-top: 35px;
+    width: 784px;
+    float: left;
+    color: black;
+    font-size: 30px;
+}
+
+.dados .redes_sociais{
+    width: 100%;
+    background-color: black;
+    height: 43px;
+    float: left;
+}
+
+.dados .redes_sociais ul li{ 
+   margin-left: 133px;
+   display: inline-block;
+}
+
+.dados .redes_sociais ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+#h1-habilidades{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+    border-bottom: 4px solid rgb(43, 41, 41);
+    
+}
+.habilidades{
+    height: 800px;
+    width: 100%;
+}
+
+.habilidades .skills {
+    float: left;
+    width: 100%;
+    height: 700px;
+    color: black;
+
+    
+}
+
+.skills .ling-skills{
+    float: left;
+    margin-left: 31px;
+
+}
+
+.skills .ling-skills  img {
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.skills .ling-skills p {
+    text-align: center;
+    
+}
+
+
+.contato #h1-contato{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+    border-bottom: 4px solid rgb(43, 41, 41);
+}
+
+.contato{
+    width: 100%;
+    height: 350px;
+
+}
+
+.contato .box-contato{
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.contato .box-contato p{
+    border-bottom: 2px solid grey;
+}
+
+.contato .box-contato strong{
+    color: white;
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+.logo-footer{
+    height: 100px;
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-footer{
+    float: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.redes-footer ul li {
+    display: inline-block;
+}
+
+.redes-footer a{
+    color: white;
+    padding: 10px 30px;
+    font-size: 30px;
+    
+}
+
+.footer #copy{
+    float: left;
+    color: white;
+    text-align: center;
+
+}
+
+.footer .detalhe{
+    display: none;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.footer .detalhe #copy{
+    color: white;
+}
